@@ -9,7 +9,6 @@
 
 .providers__content {
     padding-top: 30px;
-    padding-left: 70px;
 }
 
 .providers__link {
@@ -19,8 +18,8 @@
     padding: 15px 40px 12px 40px;
     margin-top: 30px;
 
+    color: #458ff6;
     text-decoration: none;
     font-size: 18px;
     font-weight: bold;
-    color: #458ff6;
 }

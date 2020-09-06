@@ -4,9 +4,15 @@
     padding-bottom: 100px;
 }
 
-.blog .row {
-    flex-flow: row nowrap;
-    position: relative;
+/* Tablet */
+@media only screen and (min-width: 768px){
+    .blog .row {
+        justify-content: center;
+    }
+}
+
+.blog .row > [class^="col"]{
+    padding: 15px;
 }
 
 .blog .square {
@@ -55,14 +61,11 @@
 }
 
 .blog__link a {
-    display: inline-block;
+    padding: 15px 50px;
     border: 2px solid #458ff6;
     border-radius: 40px;
-    padding: 10px 50px;
-    margin: 0 auto;
-
-    text-decoration: none;
     color: #458ff6;
+    text-decoration: none;
     font-size: 18px;
     font-weight: bold;
 }
