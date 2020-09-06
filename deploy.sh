@@ -1,0 +1,1 @@
+surge . trafalgar-template.surge.sh

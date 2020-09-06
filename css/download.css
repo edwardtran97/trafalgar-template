@@ -1,0 +1,15 @@
+/* SECTION DOWNLOAD */
+.download {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.download__content {
+    padding-right: 60px;
+}
+
+.download button {
+    margin-top: 30px;
+}
+.download__image {
+    width: 100%;
+}

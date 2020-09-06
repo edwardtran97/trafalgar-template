@@ -1,0 +1,90 @@
+/* Reset CSS */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: "Muli", sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    color: #7d7987;
+    line-height: 1.5;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.row {
+    display: flex;
+    flex-flow: row wrap;
+    margin: 0 -15px;
+}
+
+.col {
+    width: 50%;
+    padding: 15px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a:hover {
+    opacity: 0.8;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: bold;
+    color: #000000;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+h1 {
+    font-size: 48px;
+}
+h2 {
+    font-size: 36px;
+}
+h3 {
+    font-size: 24px;
+}
+h4 {
+    font-size: 21px;
+}
+p {
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 1.8;
+    color: #7d7987;
+}
+
+.button {
+    border: none;
+    padding: 15px 40px;
+    border-radius: 40px;
+    background-color: #458ff6;
+    font-size: 18px;
+    font-weight: bold;
+    color: #ffffff;
+
+    cursor: pointer;
+}
+
+.button:hover {
+    opacity: 0.7;
+}
+
+.button--outline {
+    border: 2px solid #458ff6;
+    background-color: #fff;
+    color: #458ff6;
+}

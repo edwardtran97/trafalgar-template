@@ -1,0 +1,19 @@
+/* SECTION BANNER */
+.banner {
+    
+}
+.banner__content {
+    padding: 70px 30px 0 0;
+}
+.banner__title {
+}
+.banner__description {
+    margin-bottom: 30px;
+    font-size: 21px;
+}
+.banner__image {
+}
+
+.banner__image img {
+    width: 100%;
+}
