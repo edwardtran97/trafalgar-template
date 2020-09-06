@@ -11,7 +11,7 @@ Practice convert template from Figma to HTML/CSS with Trafalgar template
 
 - Create structure source code directory
 - Setup Base CSS / Reset CSS / Normailze CSS (at main.css)
-- Use Figma to export image, get color; font-size;  font-weight, ... 
+- Use Figma to export image, get `color`; `font-size`;  `font-weight`, ... 
 - Use Flexbox to layout UI
 - Responsive by `@media` Media Queries
 - Use Position CSS properties with `z-index`
